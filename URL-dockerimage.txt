@@ -1,0 +1,2 @@
+url repo docker images
+jpas01/kubedeploy:ms-clientes-v2
