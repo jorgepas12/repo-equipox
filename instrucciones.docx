@@ -1,1 +1,9 @@
+proeycto nombre
 
+1. ve al cluster de kubenetes y ejectura el archivos namespace.yml de la caperta archivos kubernetes.
+2. ahore el dployment
+3. ahora el service
+4. ahora el ingress
+5. realiza la prueba en un nodo worker con este comando curl -X POST http://IP:8095/api/clients -H "Content-Type: application/json" -d '{"name": "name1", "surname": "surname1"}' 
+NOTA: en el paso 5 cambair la ip a la tuya
+6 ahora este comando para leer curl -X GET 
